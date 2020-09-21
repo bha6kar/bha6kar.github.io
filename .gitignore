@@ -1,0 +1,22 @@
+# dev
+.metals
+.venv
+.vscode
+node_modules/
+__pycache__/
+package-lock.json
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pyc
+*.log
+*.sqlite
+*.lock
+
+# production
+build/
+dist/
