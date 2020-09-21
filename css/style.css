@@ -1151,10 +1151,20 @@ ul.social-buttons li a:active {
 */
 }
 
-.modal-mine {
+.modal-dark {
     outline-offset: -13px;
     padding: 40px;
     background: #313131;
+    /*  background: -moz-linear-gradient(left, #6819e8 0%, #7437d0 35%, #065daf 68%, #6980f2 100%);
+    background: -webkit-linear-gradient(left, #6819e8 0%,#7437d0 35%,#065daf 68%,#6980f2 100%);
+    background: linear-gradient(to right, #6819e8 0%,#7437d0 35%,#065daf 68%,#6980f2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6819e8', endColorstr='#6980f2',GradientType=1 );
+*/
+}
+.modal-light {
+    outline-offset: -13px;
+    padding: 40px;
+    background: #fff;
     /*  background: -moz-linear-gradient(left, #6819e8 0%, #7437d0 35%, #065daf 68%, #6980f2 100%);
     background: -webkit-linear-gradient(left, #6819e8 0%,#7437d0 35%,#065daf 68%,#6980f2 100%);
     background: linear-gradient(to right, #6819e8 0%,#7437d0 35%,#065daf 68%,#6980f2 100%);
